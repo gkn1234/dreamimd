@@ -1,0 +1,5 @@
+node_modules
+dist
+
+# 不要忽略对 .xxx.{js,ts} 文件的检查
+!**/.*.*

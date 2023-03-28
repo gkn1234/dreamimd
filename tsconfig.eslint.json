@@ -1,0 +1,18 @@
+{
+  // eslint 检查专用，不要包含到 tsconfig.json 中
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    // 用于 eslint 检查，因此不能有任何输出，参考 https://typescript-eslint.io/linting/typed-linting/monorepos
+    "noEmit": true,
+    "skipLibCheck": true,
+  },
+  // 只检查，不构建，因此要包含所有需要检查的文件
+  "include": [
+    "**/*",
+    "**/.*.*",
+  ],
+  "exclude": [
+    "**/dist",
+    "**/node_modules"
+  ]
+}
