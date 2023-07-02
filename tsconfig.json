@@ -1,12 +1,7 @@
 {
-  "extends": "./tsconfig.base.json",
-  "compilerOptions": {
-    "lib": ["ESNext"],
-    "allowJs": true
-  },
-  "include": [
-    "scripts/**/*",
-    ".*.*",
-    "*.*"
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.node.json" },
+    { "path": "./tsconfig.lib.json" },
   ]
 }

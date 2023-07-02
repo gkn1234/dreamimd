@@ -1,0 +1,15 @@
+{
+  "name": "@dreamimd/rm",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "dreamimd",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "pixijs": "^7.1.4"
+  }
+}

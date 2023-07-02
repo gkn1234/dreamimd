@@ -26,5 +26,6 @@
     "scss",
     "vue"
   ],
+  "unocss.root": ["packages/imd-visual-maker"],
   "typescript.tsdk": "node_modules\\typescript\\lib",
 }

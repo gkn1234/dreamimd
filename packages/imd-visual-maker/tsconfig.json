@@ -1,0 +1,17 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "preserve",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "paths": {
+      "@dreamimd/*": ["../*/src"],
+      "@/*": ["src/*"]
+    }
+  },
+  "include": [
+    "auto-imports.d.ts",
+    "components.d.ts",
+    "src"
+  ]
+}
